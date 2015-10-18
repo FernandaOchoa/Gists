@@ -1,0 +1,70 @@
+------- styles.mxl------
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+----- theme.xml -----
+ <style name="Theme.AppCompat.EditText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/large</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+
+    </style>
+
+    <style name="Theme.AppCompat.Button" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:padding">16sp</item>
+        <item name="android:textSize">@dimen/xlarge</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Theme.AppCompat.TextCard" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/xlarge</item>
+        <item name="android:textStyle">bold</item>
+	<item name="android:elevation">@dimen/elevation</item>
+    </style>
+    <style name="Theme.AppCompat.EditText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/xlarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+---Archivo colors.xml ------
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="text">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <!--Colors for questions on recycler views -->
+    <color name="backcard">#ECF0F1</color>
+    <color name="marino_text">#2C3E50</color>
+    <color name="red_text">#C0392B</color>
+</resources>
+
+
+---Archivo de dimensiones ----
+
+    <dimen name="small">12sp</dimen>
+    <dimen name="large">18sp</dimen>
+    <dimen name="xlarge">22sp</dimen>
+    <dimen name="xxlarge">26sp</dimen>
+    <dimen name="elevation">6dp</dimen>
